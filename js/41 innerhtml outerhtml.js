@@ -1,3 +1,8 @@
+
+let first=document.getElementById('first')
+
+
+
 console.log(first.innerHTML)
 console.log(first.outerHTML)
 

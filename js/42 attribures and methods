@@ -1,0 +1,20 @@
+let first=document.getElementById('first')
+
+// getting the value of attribute
+let  a = first.getAttribute('class')
+console.log(a)
+
+// to check if attribute is present
+console.log(first.hasAttribute('data-player'))
+
+// changing and setting the attributes
+first.setAttribute('hidden','true')
+console.log(first.outerHTML)
+
+
+// removing the attribute 
+first.removeAttribute('hidden')
+
+
+//getting all attributes associated to an id
+console.log(first.attributes)
