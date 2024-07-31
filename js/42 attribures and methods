@@ -1,6 +1,6 @@
 let first=document.getElementById('first')
 
-// getting the value of attribute
+// getting the value of attribute 
 let  a = first.getAttribute('class')
 console.log(a)
 
