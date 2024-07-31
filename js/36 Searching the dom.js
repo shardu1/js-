@@ -10,7 +10,7 @@ ctitles[1].style.color = 'red'
 ctitles[2].style.color = 'green'
 
 
-document.querySelector('.this').style.color = 'brown' // selects first elements with .this
+document.querySelector('.this').style.color = 'brown' // selects first element with .this
 document.querySelector('.this').style.background = 'green' 
 
 
